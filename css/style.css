@@ -1,0 +1,201 @@
+body {
+    font-family: Cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 960px;
+}
+nav{
+    background-color: #171717;
+}
+
+
+
+
+/* Slogan */
+.header-slogan {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    height: 330px;
+}
+
+.slogan {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 20px 50px;
+    text-transform: uppercase;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.80);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-btn {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #001C38;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 15%;
+    margin-left: 50px;
+    transition: background-color 0.3s;
+}
+
+.header-btn:hover {
+    background-color: #bd7604;
+}
+
+.header-image {
+    max-height: 330px;
+    width: 100%;
+}
+
+/* Service-Home*/
+/* Personalized CSS to adjust the layout */
+.service-content {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    height: 330px;
+  }
+  
+  .service-image-btn {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.80);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .service-tittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .service-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin: 15px 40px 40px 40px;
+  }
+  
+
+/* Events */
+.custom-divider {
+    background-color: #D28204; /* Reemplaza #FFA000 con el color deseado para orange-400 */
+    height: 3px;
+    width: 12%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+  }
+  
+  
+ h1, h2, h3, h4, h5, h6, li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.img-service{
+    width: 400px;
+}
+
+/* Cambiar el color del botón */
+.btn.btn-primary {
+    background-color: #001C38 !important;
+    border-color: #001C38 !important;
+}
+
+/* Cambiar el color de hover del botón */
+.btn.btn-primary:hover {
+    background-color: #bd7604 !important;
+    border-color: #bd7604 !important;
+}
+
+
+/*Services*/
+.services-content .col-md-6 p,
+.services-header-text {
+    margin-right: 15%;
+  }
+
+
+
+/* Photo Gallery */
+.custom-divider-photo-gallery{
+  background-color: #D28204; /* Reemplaza #FFA000 con el color deseado para orange-400 */
+  height: 3px;
+  width: 12%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: none;
+}
+
+
+/*Events*/
+h1 {
+    font-size: 36px;
+}
+
+.event {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.event img {
+    max-width: 100%;
+    height: auto;
+}
+
+.event h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.event p {
+    font-size: 18px;
+    margin-top: 10px;
+}  
+
+
+
